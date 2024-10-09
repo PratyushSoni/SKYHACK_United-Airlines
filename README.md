@@ -30,22 +30,22 @@ pip install pandas matplotlib seaborn
    reasons = pd.read_csv('path_to_your_reasons_data.csv')
    customers = pd.read_csv('path_to_your_customers_data.csv')
 
-# How to Run
+### How to Run
 Clone the Repository: First, clone the repository to your local machine or use Google Colab:
 
 
 ```git clone https://github.com/PratyushSoni/SKYHACK_United-Airlines```
 
-# Upload Required Data Files: Upload the CSV files (calls.csv, customers.csv, reason.csv, sentiment_statistics.csv, and test.csv) to the notebook's working directory if you are using Google Colab or Jupyter Notebook.
+### Upload Required Data Files: Upload the CSV files (calls.csv, customers.csv, reason.csv, sentiment_statistics.csv, and test.csv) to the notebook's working directory if you are using Google Colab or Jupyter Notebook.
 
-# Install Required Libraries: In case you are running the notebook locally, install the required dependencies:
+### Install Required Libraries: In case you are running the notebook locally, install the required dependencies:
 
 ```pip install pandas scikit-learn nltk```
 If you are using Google Colab, these libraries are pre-installed.
 
-# Open the Notebook: Open the call_center_optimization.ipynb notebook and ensure the data files are correctly loaded into the environment.
+### Open the Notebook: Open the call_center_optimization.ipynb notebook and ensure the data files are correctly loaded into the environment.
 
-# Run the Notebook: Execute each cell in sequence. The following tasks will be performed: 
+### Run the Notebook: Execute each cell in sequence. The following tasks will be performed: 
   Data Preprocessing: Cleaning, merging, and preparing data.
   Feature Engineering: Extracting features like sentiment scores, call duration, and silence percentage.
   Model Training: Training a machine learning model (Random Forest Classifier) to predict the primary call reason.
